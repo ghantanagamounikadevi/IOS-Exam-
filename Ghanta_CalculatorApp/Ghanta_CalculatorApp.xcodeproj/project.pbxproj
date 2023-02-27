@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7BB1AA8299D481600DA3A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BB1AA7299D481600DA3A1A /* AppDelegate.swift */; };
+		A7BB1AAA299D481600DA3A1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BB1AA9299D481600DA3A1A /* SceneDelegate.swift */; };
+		A7BB1AAC299D481600DA3A1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BB1AAB299D481600DA3A1A /* ViewController.swift */; };
+		A7BB1AAF299D481600DA3A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BB1AAD299D481600DA3A1A /* Main.storyboard */; };
+		A7BB1AB1299D481700DA3A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BB1AB0299D481700DA3A1A /* Assets.xcassets */; };
+		A7BB1AB4299D481700DA3A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BB1AB2299D481700DA3A1A /* LaunchScreen.storyboard */; };
+		A7BB1ABF299D481700DA3A1A /* Ghanta_CalculatorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BB1ABE299D481700DA3A1A /* Ghanta_CalculatorAppTests.swift */; };
+		A7BB1AC9299D481700DA3A1A /* Ghanta_CalculatorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BB1AC8299D481700DA3A1A /* Ghanta_CalculatorAppUITests.swift */; };
+		A7BB1ACB299D481700DA3A1A /* Ghanta_CalculatorAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BB1ACA299D481700DA3A1A /* Ghanta_CalculatorAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7BB1ABB299D481700DA3A1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7BB1A9C299D481600DA3A1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7BB1AA3299D481600DA3A1A;
+			remoteInfo = Ghanta_CalculatorApp;
+		};
+		A7BB1AC5299D481700DA3A1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7BB1A9C299D481600DA3A1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7BB1AA3299D481600DA3A1A;
+			remoteInfo = Ghanta_CalculatorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7BB1AA4299D481600DA3A1A /* Ghanta_CalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ghanta_CalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BB1AA7299D481600DA3A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7BB1AA9299D481600DA3A1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A7BB1AAB299D481600DA3A1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7BB1AAE299D481600DA3A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7BB1AB0299D481700DA3A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7BB1AB3299D481700DA3A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7BB1AB5299D481700DA3A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BB1ABA299D481700DA3A1A /* Ghanta_CalculatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ghanta_CalculatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BB1ABE299D481700DA3A1A /* Ghanta_CalculatorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghanta_CalculatorAppTests.swift; sourceTree = "<group>"; };
+		A7BB1AC4299D481700DA3A1A /* Ghanta_CalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ghanta_CalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BB1AC8299D481700DA3A1A /* Ghanta_CalculatorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghanta_CalculatorAppUITests.swift; sourceTree = "<group>"; };
+		A7BB1ACA299D481700DA3A1A /* Ghanta_CalculatorAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghanta_CalculatorAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7BB1AA1299D481600DA3A1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BB1AB7299D481700DA3A1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BB1AC1299D481700DA3A1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7BB1A9B299D481600DA3A1A = {
+			isa = PBXGroup;
+			children = (
+				A7BB1AA6299D481600DA3A1A /* Ghanta_CalculatorApp */,
+				A7BB1ABD299D481700DA3A1A /* Ghanta_CalculatorAppTests */,
+				A7BB1AC7299D481700DA3A1A /* Ghanta_CalculatorAppUITests */,
+				A7BB1AA5299D481600DA3A1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7BB1AA5299D481600DA3A1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7BB1AA4299D481600DA3A1A /* Ghanta_CalculatorApp.app */,
+				A7BB1ABA299D481700DA3A1A /* Ghanta_CalculatorAppTests.xctest */,
+				A7BB1AC4299D481700DA3A1A /* Ghanta_CalculatorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7BB1AA6299D481600DA3A1A /* Ghanta_CalculatorApp */ = {
+			isa = PBXGroup;
+			children = (
+				A7BB1AA7299D481600DA3A1A /* AppDelegate.swift */,
+				A7BB1AA9299D481600DA3A1A /* SceneDelegate.swift */,
+				A7BB1AAB299D481600DA3A1A /* ViewController.swift */,
+				A7BB1AAD299D481600DA3A1A /* Main.storyboard */,
+				A7BB1AB0299D481700DA3A1A /* Assets.xcassets */,
+				A7BB1AB2299D481700DA3A1A /* LaunchScreen.storyboard */,
+				A7BB1AB5299D481700DA3A1A /* Info.plist */,
+			);
+			path = Ghanta_CalculatorApp;
+			sourceTree = "<group>";
+		};
+		A7BB1ABD299D481700DA3A1A /* Ghanta_CalculatorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7BB1ABE299D481700DA3A1A /* Ghanta_CalculatorAppTests.swift */,
+			);
+			path = Ghanta_CalculatorAppTests;
+			sourceTree = "<group>";
+		};
+		A7BB1AC7299D481700DA3A1A /* Ghanta_CalculatorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7BB1AC8299D481700DA3A1A /* Ghanta_CalculatorAppUITests.swift */,
+				A7BB1ACA299D481700DA3A1A /* Ghanta_CalculatorAppUITestsLaunchTests.swift */,
+			);
+			path = Ghanta_CalculatorAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7BB1AA3299D481600DA3A1A /* Ghanta_CalculatorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BB1ACE299D481700DA3A1A /* Build configuration list for PBXNativeTarget "Ghanta_CalculatorApp" */;
+			buildPhases = (
+				A7BB1AA0299D481600DA3A1A /* Sources */,
+				A7BB1AA1299D481600DA3A1A /* Frameworks */,
+				A7BB1AA2299D481600DA3A1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ghanta_CalculatorApp;
+			productName = Ghanta_CalculatorApp;
+			productReference = A7BB1AA4299D481600DA3A1A /* Ghanta_CalculatorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7BB1AB9299D481700DA3A1A /* Ghanta_CalculatorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BB1AD1299D481700DA3A1A /* Build configuration list for PBXNativeTarget "Ghanta_CalculatorAppTests" */;
+			buildPhases = (
+				A7BB1AB6299D481700DA3A1A /* Sources */,
+				A7BB1AB7299D481700DA3A1A /* Frameworks */,
+				A7BB1AB8299D481700DA3A1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7BB1ABC299D481700DA3A1A /* PBXTargetDependency */,
+			);
+			name = Ghanta_CalculatorAppTests;
+			productName = Ghanta_CalculatorAppTests;
+			productReference = A7BB1ABA299D481700DA3A1A /* Ghanta_CalculatorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7BB1AC3299D481700DA3A1A /* Ghanta_CalculatorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BB1AD4299D481700DA3A1A /* Build configuration list for PBXNativeTarget "Ghanta_CalculatorAppUITests" */;
+			buildPhases = (
+				A7BB1AC0299D481700DA3A1A /* Sources */,
+				A7BB1AC1299D481700DA3A1A /* Frameworks */,
+				A7BB1AC2299D481700DA3A1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7BB1AC6299D481700DA3A1A /* PBXTargetDependency */,
+			);
+			name = Ghanta_CalculatorAppUITests;
+			productName = Ghanta_CalculatorAppUITests;
+			productReference = A7BB1AC4299D481700DA3A1A /* Ghanta_CalculatorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7BB1A9C299D481600DA3A1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A7BB1AA3299D481600DA3A1A = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					A7BB1AB9299D481700DA3A1A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = A7BB1AA3299D481600DA3A1A;
+					};
+					A7BB1AC3299D481700DA3A1A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = A7BB1AA3299D481600DA3A1A;
+					};
+				};
+			};
+			buildConfigurationList = A7BB1A9F299D481600DA3A1A /* Build configuration list for PBXProject "Ghanta_CalculatorApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7BB1A9B299D481600DA3A1A;
+			productRefGroup = A7BB1AA5299D481600DA3A1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7BB1AA3299D481600DA3A1A /* Ghanta_CalculatorApp */,
+				A7BB1AB9299D481700DA3A1A /* Ghanta_CalculatorAppTests */,
+				A7BB1AC3299D481700DA3A1A /* Ghanta_CalculatorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7BB1AA2299D481600DA3A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BB1AB4299D481700DA3A1A /* LaunchScreen.storyboard in Resources */,
+				A7BB1AB1299D481700DA3A1A /* Assets.xcassets in Resources */,
+				A7BB1AAF299D481600DA3A1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BB1AB8299D481700DA3A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BB1AC2299D481700DA3A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7BB1AA0299D481600DA3A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BB1AAC299D481600DA3A1A /* ViewController.swift in Sources */,
+				A7BB1AA8299D481600DA3A1A /* AppDelegate.swift in Sources */,
+				A7BB1AAA299D481600DA3A1A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BB1AB6299D481700DA3A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BB1ABF299D481700DA3A1A /* Ghanta_CalculatorAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BB1AC0299D481700DA3A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BB1AC9299D481700DA3A1A /* Ghanta_CalculatorAppUITests.swift in Sources */,
+				A7BB1ACB299D481700DA3A1A /* Ghanta_CalculatorAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7BB1ABC299D481700DA3A1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7BB1AA3299D481600DA3A1A /* Ghanta_CalculatorApp */;
+			targetProxy = A7BB1ABB299D481700DA3A1A /* PBXContainerItemProxy */;
+		};
+		A7BB1AC6299D481700DA3A1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7BB1AA3299D481600DA3A1A /* Ghanta_CalculatorApp */;
+			targetProxy = A7BB1AC5299D481700DA3A1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7BB1AAD299D481600DA3A1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7BB1AAE299D481600DA3A1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7BB1AB2299D481700DA3A1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7BB1AB3299D481700DA3A1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7BB1ACC299D481700DA3A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7BB1ACD299D481700DA3A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7BB1ACF299D481700DA3A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ghanta_CalculatorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Ghanta-CalculatorApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7BB1AD0299D481700DA3A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ghanta_CalculatorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Ghanta-CalculatorApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7BB1AD2299D481700DA3A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Ghanta-CalculatorAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ghanta_CalculatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ghanta_CalculatorApp";
+			};
+			name = Debug;
+		};
+		A7BB1AD3299D481700DA3A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Ghanta-CalculatorAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ghanta_CalculatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ghanta_CalculatorApp";
+			};
+			name = Release;
+		};
+		A7BB1AD5299D481700DA3A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Ghanta-CalculatorAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ghanta_CalculatorApp;
+			};
+			name = Debug;
+		};
+		A7BB1AD6299D481700DA3A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Ghanta-CalculatorAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ghanta_CalculatorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7BB1A9F299D481600DA3A1A /* Build configuration list for PBXProject "Ghanta_CalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BB1ACC299D481700DA3A1A /* Debug */,
+				A7BB1ACD299D481700DA3A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BB1ACE299D481700DA3A1A /* Build configuration list for PBXNativeTarget "Ghanta_CalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BB1ACF299D481700DA3A1A /* Debug */,
+				A7BB1AD0299D481700DA3A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BB1AD1299D481700DA3A1A /* Build configuration list for PBXNativeTarget "Ghanta_CalculatorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BB1AD2299D481700DA3A1A /* Debug */,
+				A7BB1AD3299D481700DA3A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BB1AD4299D481700DA3A1A /* Build configuration list for PBXNativeTarget "Ghanta_CalculatorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BB1AD5299D481700DA3A1A /* Debug */,
+				A7BB1AD6299D481700DA3A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7BB1A9C299D481600DA3A1A /* Project object */;
+}
